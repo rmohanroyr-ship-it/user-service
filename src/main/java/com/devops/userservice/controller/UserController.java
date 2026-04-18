@@ -11,3 +11,7 @@ public class UserController {
         return "User received: " + user;
     }
 }
+@GetMapping("/test")
+public String test() {
+    return "SCRUM-3 working";
+}
